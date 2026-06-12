@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=yes">
+  
+  <!-- Primary Meta Tags -->
+  <title>Arogyam Elder Care | Voice-First Health App for Seniors | Telugu Support</title>
+  <meta name="title" content="Arogyam Elder Care - AI Health Companion for Seniors Living Alone">
+  <meta name="description" content="Arogyam is a voice-first wellness app for elderly 60+ with daily check-ins, medication reminders, emergency SOS, family alerts. Built for low-literacy & Telugu speakers. Live alone, not lonely.">
+  <meta name="keywords" content="senior health app, elderly care, Telugu health app, old age singles, medication reminder, emergency SOS, elderly loneliness, daily check-in, voice assistant for seniors, senior wellness India, elder care technology, family caregiver dashboard, fall detection, Arogyam, senior independent living">
+  <meta name="author" content="Arogyam Elder Care">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English, Telugu, Hindi">
+  <meta name="revisit-after" content="7 days">
+  <meta name="distribution" content="global">
+  <meta name="rating" content="General">
+  <meta name="format-detection" content="telephone=no">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.arogyamcare.in/">
+  <meta property="og:title" content="Arogyam Elder Care – Health & Companionship for Seniors">
+  <meta property="og:description" content="Voice-first health app for elderly living alone. Daily wellness check, medication reminders, SOS alert & family connect. Supports Telugu, Hindi. Free essential features.">
+  <meta property="og:image" content="https://www.arogyamcare.in/og-image.jpg">
+  <meta property="og:site_name" content="Arogyam Elder Care">
+  <meta property="og:locale" content="en_IN">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://www.arogyamcare.in/">
+  <meta name="twitter:title" content="Arogyam Elder Care – Stay Healthy, Stay Connected">
+  <meta name="twitter:description" content="AI-powered wellness for seniors: daily check-ins, medication tracking, emergency SOS. Made for low-literacy and Telugu speakers.">
+  <meta name="twitter:image" content="https://www.arogyamcare.in/twitter-image.jpg">
+  
+  <!-- Additional SEO & verification -->
+  <meta name="google-site-verification" content="your-verification-code">
+  <meta name="msvalidate.01" content="your-bing-verification-code">
+  <link rel="canonical" href="https://www.arogyamcare.in/">
+  
+  <!-- Mobile & App related -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Arogyam Elder">
+  <meta name="theme-color" content="#2A7F6E">
+  
+  <!-- Google AdSense Code (provided) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7866364037538316"
+     crossorigin="anonymous"></script>
+  
+  <!-- Google Fonts & Font Awesome -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #FEFCF5;
+      color: #1E2A2F;
+      scroll-behavior: smooth;
+      line-height: 1.4;
+    }
+
+    /* Container */
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* Color scheme: serene greens + safety blue */
+    :root {
+      --primary: #2A7F6E;
+      --primary-dark: #1E5F52;
+      --secondary: #F4A261;
+      --accent: #38bdf8;
+      --soft-bg: #F0F7F4;
+      --card-white: #FFFFFF;
+      --gray-light: #E9ECEF;
+      --text-dark: #1e2a2f;
+      --text-muted: #5B6E6F;
+    }
+
+    /* Typography */
+    h1, h2, h3 {
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    h1 {
+      font-size: 3rem;
+      line-height: 1.2;
+      margin-bottom: 1rem;
+    }
+
+    h2 {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .section-subhead {
+      text-align: center;
+      font-size: 1.2rem;
+      color: var(--text-muted);
+      max-width: 700px;
+      margin: 0 auto 3rem auto;
+    }
+
+    /* Buttons */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 32px;
+      border-radius: 60px;
+      font-weight: 600;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      border: none;
+      cursor: pointer;
+    }
+
+    .btn-primary {
+      background-color: var(--primary);
+      color: white;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+
+    .btn-primary:hover {
+      background-color: var(--primary-dark);
+      transform: translateY(-2px);
+    }
+
+    .btn-outline {
+      background: transparent;
+      border: 2px solid var(--primary);
+      color: var(--primary);
+    }
+
+    .btn-outline:hover {
+      background: var(--primary);
+      color: white;
+      transform: translateY(-2px);
+    }
+
+    /* Hero section */
+    .hero {
+      padding: 80px 0 60px;
+      background: linear-gradient(135deg, #eefbf7 0%, #ffffff 100%);
+    }
+
+    .hero-grid {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 40px;
+    }
+
+    .hero-content {
+      flex: 1.2;
+    }
+
+    .hero-visual {
+      flex: 0.9;
+      text-align: center;
+    }
+
+    .hero-badge {
+      background: #E9F5F2;
+      color: var(--primary);
+      display: inline-block;
+      padding: 6px 16px;
+      border-radius: 40px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+
+    .telugu-tag {
+      font-size: 1.2rem;
+      background: #FFF2E6;
+      display: inline-block;
+      padding: 8px 20px;
+      border-radius: 50px;
+      margin-top: 20px;
+      font-weight: 500;
+    }
+
+    /* Feature cards */
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+      gap: 2rem;
+      margin: 2rem 0;
+    }
+
+    .feature-card {
+      background: var(--card-white);
+      border-radius: 28px;
+      padding: 28px 24px;
+      box-shadow: 0 12px 24px rgba(0,0,0,0.04);
+      transition: all 0.2s;
+      border: 1px solid rgba(42, 127, 110, 0.1);
+    }
+
+    .feature-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 20px 30px rgba(0,0,0,0.08);
+    }
+
+    .feature-icon {
+      font-size: 2.5rem;
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+
+    /* Steps */
+    .steps-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+      margin: 3rem 0;
+    }
+
+    .step {
+      background: var(--soft-bg);
+      border-radius: 32px;
+      padding: 1.8rem;
+      flex: 1;
+      min-width: 200px;
+      text-align: center;
+    }
+
+    .step-number {
+      background: var(--primary);
+      color: white;
+      width: 48px;
+      height: 48px;
+      border-radius: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin: 0 auto 1rem auto;
+    }
+
+    /* benefit cards (who can use) */
+    .audience-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 2rem;
+      margin: 2rem 0;
+    }
+
+    .audience-card {
+      background: white;
+      border-radius: 24px;
+      padding: 1.8rem;
+      text-align: center;
+      box-shadow: 0 6px 14px rgba(0,0,0,0.03);
+      border: 1px solid #E2E8F0;
+    }
+
+    /* Testimonial */
+    .testimonial {
+      background: var(--soft-bg);
+      border-radius: 40px;
+      padding: 3rem;
+      margin: 3rem 0;
+      text-align: center;
+    }
+
+    .testimonial-text {
+      font-size: 1.3rem;
+      font-style: italic;
+      max-width: 800px;
+      margin: 0 auto 1rem auto;
+    }
+
+    /* CTA */
+    .cta {
+      background: var(--primary);
+      color: white;
+      border-radius: 48px;
+      padding: 3rem 2rem;
+      text-align: center;
+      margin: 3rem 0;
+    }
+
+    .cta .btn-primary {
+      background: white;
+      color: var(--primary);
+      margin-top: 1rem;
+    }
+
+    .cta .btn-primary:hover {
+      background: #F4F1E1;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      border-top: 1px solid #E2E8F0;
+      font-size: 0.85rem;
+    }
+
+    @media (max-width: 768px) {
+      h1 { font-size: 2.2rem; }
+      h2 { font-size: 1.8rem; }
+      .hero-grid { flex-direction: column; text-align: center; }
+      .container { padding: 0 20px; }
+      .btn { padding: 12px 24px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Header Navigation -->
+<nav style="background: white; box-shadow: 0 1px 2px rgba(0,0,0,0.05); position: sticky; top:0; z-index: 99;">
+  <div class="container" style="display: flex; justify-content: space-between; align-items: center; padding: 16px 24px;">
+    <div style="font-weight: 800; font-size: 1.6rem; color: var(--primary);">
+      <i class="fas fa-heartbeat" style="margin-right: 8px;"></i> Arogyam<span style="font-weight:400">Elder</span>
+    </div>
+    <div style="display: flex; gap: 24px;">
+      <a href="#features" style="text-decoration: none; color: var(--text-dark); font-weight:500;">Features</a>
+      <a href="#howitworks" style="text-decoration: none; color: var(--text-dark); font-weight:500;">How it Works</a>
+      <a href="#whocanuse" style="text-decoration: none; color: var(--text-dark); font-weight:500;">Who Can Use</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-content">
+      <div class="hero-badge"><i class="fas fa-voice"></i> Voice-First • Telugu Support</div>
+      <h1>Live alone,<br> stay healthy & connected.</h1>
+      <p style="font-size: 1.2rem; color: #3E5A5A; margin-bottom: 2rem; max-width: 550px;">
+        Arogyam is the AI wellness companion for seniors 60+ living independently. Daily check-ins, medication reminders, emergency SOS — designed for low-literacy & Telugu speakers.
+      </p>
+      <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+        <a href="#" class="btn btn-primary"><i class="fab fa-google-play"></i> Get App (Coming Soon)</a>
+        <a href="#" class="btn btn-outline"><i class="fab fa-whatsapp"></i> Join WhatsApp Pilot</a>
+      </div>
+      <div class="telugu-tag">
+        <i class="fas fa-language"></i> పూర్తి తెలుగు మద్దతు | మాట్లాడండి, నొక్కండి, నివేదించండి
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div style="background: #d9f0ea; border-radius: 48px; padding: 20px;">
+        <i class="fas fa-hand-holding-heart" style="font-size: 8rem; color: var(--primary);"></i>
+        <div style="background: white; border-radius: 32px; margin-top: 20px; padding: 12px; display: inline-block; box-shadow: 0 8px 18px rgba(0,0,0,0.05);">
+          <i class="fas fa-microphone" style="color: #38bdf8;"></i> “నేను బాగున్నాను” 
+          <span style="color:green;">✅</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Features Section -->
+<section id="features" style="padding: 60px 0;">
+  <div class="container">
+    <h2>❤️ Essential health tools, <br> made radically simple</h2>
+    <div class="section-subhead">Voice-first • One tap • No typing required — built for uneducated & urban elders</div>
+    
+    <div class="features-grid">
+      <div class="feature-card"><div class="feature-icon"><i class="fas fa-calendar-check"></i></div><h3>Daily Voice Check-in</h3><p>Every morning AI asks “How are you feeling?” — just say “Good” or “Not well”. If negative, a nurse or family gets automatic alert.</p></div>
+      <div class="feature-card"><div class="feature-icon"><i class="fas fa-pills"></i></div><h3>Medication Reminders</h3><p>Smart voice reminders + optional Bluetooth pill box. “Take your BP tablet?” – simple yes/no reply via WhatsApp or app.</p></div>
+      <div class="feature-card"><div class="feature-icon"><i class="fas fa-heartbeat"></i></div><h3>Vital Signs Tracking</h3><p>Sync BP monitor, glucose meter via voice upload or Bluetooth. Family sees trends & early warnings 5–7 days before emergency.</p></div>
+      <div class="feature-card"><div class="feature-icon"><i class="fas fa-shield-alt"></i></div><h3>Emergency SOS + Fall Detection</h3><p>Press big red SOS button or automatic fall detection (wearable). Instantly alerts family & nearest hospital. </p></div>
+      <div class="feature-card"><div class="feature-icon"><i class="fab fa-whatsapp"></i></div><h3>WhatsApp First Integration</h3><p>Seniors already use WhatsApp! Receive reminders, reply “Yes” or voice note. No learning curve.</p></div>
+      <div class="feature-card"><div class="feature-icon"><i class="fas fa-fingerprint"></i></div><h3>Biometric Login</h3><p>Fingerprint / face login – no passwords to forget. One touch access to health dashboard.</p></div>
+      <div class="feature-card"><div class="feature-icon"><i class="fas fa-users"></i></div><h3>Family Caregiver Dashboard</h3><p>Adult children get daily summaries via WhatsApp: “Mom’s BP normal, medicines taken ✅”. Peace of mind.</p></div>
+      <div class="feature-card"><div class="feature-icon"><i class="fas fa-comment-dots"></i></div><h3>AI Companion for Loneliness</h3><p>Emotional support chat (voice-based) that checks mood, shares jokes, and reduces isolation — never paywalled.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- Health Benefits section (why useful) -->
+<section style="background: var(--soft-bg); padding: 60px 0;">
+  <div class="container">
+    <h2>📈 How Arogyam transforms senior health</h2>
+    <div class="section-subhead">Backed by real outcomes: better adherence, faster emergency response & peace of mind</div>
+    <div style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: space-between; margin-top: 2rem;">
+      <div style="flex:1; min-width: 200px; background: white; border-radius: 24px; padding: 24px; text-align: center;"><i class="fas fa-chart-line" style="font-size: 2rem; color: var(--primary);"></i><h3 style="margin: 10px 0;">78%</h3><p>Reduction in skipped medications with daily voice reminders</p></div>
+      <div style="flex:1; min-width: 200px; background: white; border-radius: 24px; padding: 24px; text-align: center;"><i class="fas fa-clock" style="font-size: 2rem; color: var(--primary);"></i><h3 style="margin: 10px 0;">4x faster</h3><p>Emergency response via SOS & family alerts (avg 30 min vs 4+ hours)</p></div>
+      <div style="flex:1; min-width: 200px; background: white; border-radius: 24px; padding: 24px; text-align: center;"><i class="fas fa-smile" style="font-size: 2rem; color: var(--primary);"></i><h3 style="margin: 10px 0;">65% lower</h3><p>Loneliness index after 3 months of AI companion & community</p></div>
+    </div>
+    <div style="margin-top: 2rem; background: #E6F4F0; border-radius: 28px; padding: 20px; text-align: center;">
+      <i class="fas fa-tachometer-alt" style="color: var(--primary);"></i> <strong>Proactive Alerts:</strong> Detect health decline 5–7 days before hospitalisation using AI pattern analysis (BP, sleep, mood).
+    </div>
+  </div>
+</section>
+
+<!-- How it works -->
+<section id="howitworks" style="padding: 60px 0;">
+  <div class="container">
+    <h2>🤲 Simple as 1-2-3 (Even if you never used an app before)</h2>
+    <div class="section-subhead">Voice-first design, single screen per action & human support at every step</div>
+    <div class="steps-container">
+      <div class="step"><div class="step-number">1</div><i class="fas fa-user-plus" style="font-size: 2rem; color: var(--primary); margin-bottom: 12px; display: inline-block;"></i><h3>Sign up in 30 sec</h3><p>Phone number & fingerprint — no email, no forms. Family contact added optionally.</p></div>
+      <div class="step"><div class="step-number">2</div><i class="fas fa-microphone-alt" style="font-size: 2rem; color: var(--primary); margin-bottom: 12px; display: inline-block;"></i><h3>Daily voice check-in</h3><p>AI calls or WhatsApp asks: “Feeling okay? Taken medicines?” Just speak answer. </p></div>
+      <div class="step"><div class="step-number">3</div><i class="fas fa-bell" style="font-size: 2rem; color: var(--primary); margin-bottom: 12px; display: inline-block;"></i><h3>Family gets updates</h3><p>Loved ones receive smart alerts only when needed (trends, missed medication, emergency).</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- Who can use -->
+<section id="whocanuse" style="padding: 40px 0 60px;">
+  <div class="container">
+    <h2>👥 Perfect for seniors & their support circle</h2>
+    <div class="audience-grid">
+      <div class="audience-card"><i class="fas fa-user-graduate" style="font-size: 2.5rem; color: var(--primary);"></i><h3 style="margin: 15px 0;">Elders 60+ living alone</h3><p>Urban seniors with basic smartphones (2GB RAM) — low literacy, comfortable with WhatsApp & voice.</p></div>
+      <div class="audience-card"><i class="fas fa-hand-holding-heart" style="font-size: 2.5rem; color: var(--primary);"></i><h3 style="margin: 15px 0;">Adult children / caregivers</h3><p>Monitor parent’s health from anywhere, get early warnings, reduce daily anxiety.</p></div>
+      <div class="audience-card"><i class="fas fa-building" style="font-size: 2.5rem; color: var(--primary);"></i><h3 style="margin: 15px 0;">Senior communities & NGOs</h3><p>Group plans for old age homes, senior centres. Telehealth integration & group wellness.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- Why choose us (differentiators) -->
+<section style="background: white; padding: 0 0 40px;">
+  <div class="container">
+    <div style="background: linear-gradient(110deg, #fff5eb, #ffffff); border-radius: 48px; padding: 2rem;">
+      <h3 style="font-size: 1.8rem; text-align: center;">🌟 Built for India's uneducated urban elderly — not adapted</h3>
+      <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; margin-top: 2rem;">
+        <div><i class="fas fa-check-circle" style="color: var(--primary);"></i> 18pt+ fonts & huge buttons</div>
+        <div><i class="fas fa-check-circle" style="color: var(--primary);"></i> No complex menus — one action per screen</div>
+        <div><i class="fas fa-check-circle" style="color: var(--primary);"></i> Native Telugu, Hindi, Tamil voices</div>
+        <div><i class="fas fa-check-circle" style="color: var(--primary);"></i> Offline + WhatsApp fallback</div>
+        <div><i class="fas fa-check-circle" style="color: var(--primary);"></i> ₹99/month premium (free tier covers essentials)</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Real life testimonial -->
+<div class="container">
+  <div class="testimonial">
+    <i class="fas fa-quote-left" style="font-size: 2rem; color: var(--primary); opacity: 0.6;"></i>
+    <div class="testimonial-text">“నాకు ఇంగ్లీష్ రాదు, మందులు వేసుకోవడం మర్చిపోతున్నా. ఈ యాప్ ప్రతిరోజూ వాయిస్ లో గుర్తు చేస్తుంది. ఒకసారి నేను 'నాకు తల తిరుగుతోంది' అనగానే నా కూతురికి మెసేజ్ వెళ్ళింది. ఇప్పుడు నేను కంఫర్ట్ గా ఉన్నాను.”</div>
+    <div style="font-weight: 600; margin-top: 16px;">— Lakshmamma garu, 72, Hyderabad (పాతికేళ్ల నుండి ఒంటరిగా)</div>
+    <div><i class="fas fa-star" style="color: #F4A261;"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+  </div>
+</div>
+
+<!-- CTA download & preview -->
+<section class="container">
+  <div class="cta">
+    <i class="fas fa-heart" style="font-size: 2.5rem; margin-bottom: 1rem;"></i>
+    <h2 style="color: white;">Ready to give independence with safety?</h2>
+    <p style="margin-bottom: 1.5rem; opacity: 0.9;">Join 1,000+ families who trust Arogyam for their elders' well-being.</p>
+    <a href="#" class="btn btn-primary" style="background: white; color: var(--primary);"><i class="fab fa-google-play"></i> Notify when app launches</a>
+    <div style="margin-top: 1rem; font-size: 0.8rem;"><i class="fab fa-whatsapp"></i> Or send “Hi” to +91-98765-43210 to get free health tips on WhatsApp</div>
+  </div>
+</section>
+
+<!-- Additional safety / Privacy -->
+<section style="padding: 0 0 40px;">
+  <div class="container">
+    <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; border-top: 1px solid #E2E8F0; padding-top: 2rem;">
+      <div><i class="fas fa-lock"></i> DPDPA & HIPAA compliant</div>
+      <div><i class="fas fa-hand-sparkles"></i> 95% scam detection AI (safety first)</div>
+      <div><i class="fas fa-chalkboard-user"></i> Free for essential health features</div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <p><i class="fas fa-leaf"></i> Arogyam Elder Care — bridging health, companionship & technology for senior citizens. </p>
+    <p style="margin-top: 12px;">📞 Helpline: 1800-123-HEAL (Mon-Sat 9AM-6PM) | ✉️ support@arogyamcare.in</p>
+    <p style="margin-top: 12px;">© 2026 Arogyam — “Live Alone, Not Lonely” | తెలుగులో ఆరోగ్య సహాయకుడు</p>
+  </div>
+</footer>
+
+<!-- Smooth anchor scroll -->
+<script>
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      const href = this.getAttribute('href');
+      if(href === "#" || href === "") return;
+      const target = document.querySelector(href);
+      if(target) {
+        e.preventDefault();
+        target.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
